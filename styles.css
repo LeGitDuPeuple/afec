@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
 }
 
 
@@ -28,36 +32,39 @@ height: 50rem;
 article {
    
   
-    width: 19em;
+    width: 24em;
     margin: 0;
     border-radius: 5px 5px 5px 55px;
+    overflow: hidden;
 
     
 }
-    
+
 
 article:nth-child(1)::after {
     content: "";
     position: absolute;
-    height: 21rem;
+    height: 24rem;
    width: 100%;
     background: rgba(10, 12, 18, 0.353);
     border-radius: 5px 5px 5px 55px;
+    z-index: 1;
     
 }
 article:nth-child(2)::after {
     content: "";
     position: absolute;
-    height: 15rem;
+    height: 18rem;
     width: 100%;
     background: rgba(3, 4, 8, 0.427);
     border-radius: 5px 5px 5px 55px;
+    z-index: 1;
 }
 
 article:nth-child(3)::after {
     content: "";
     position: absolute;
-    height: 13rem;
+    height: 15rem;
     width: 100%;
     background: rgba(3, 4, 8, 0.427);
     border-radius: 5px 5px 5px 55px;
@@ -66,7 +73,7 @@ article:nth-child(3)::after {
 article:nth-child(4)::after {
     content: "";
     position: absolute;
-    height: 21rem;
+    height: 24rem;
     width: 100%;
     background: rgba(3, 4, 8, 0.427);
     border-radius: 5px 5px 5px 55px;
@@ -75,7 +82,7 @@ article:nth-child(4)::after {
 article:nth-child(5)::after {
     content: "";
     position: absolute;
-    height: 15rem;
+    height: 18rem;
     width: 100%;
     background: rgba(3, 4, 8, 0.427);
     border-radius: 5px 5px 5px 55px;
@@ -84,11 +91,48 @@ article:nth-child(5)::after {
 article:nth-child(6)::after {
     content: "";
     position: absolute;
-    height: 23rem;
+    height: 27rem;
     width: 100%;
     background: rgba(3, 4, 8, 0.427);
     border-radius: 8px 8px 8px 45px;
 }
+
+
+
+article p, h2, i {
+    z-index: 2;
+color: white;
+padding: 0 0 10px 10px;
+
+
+}
+
+article p, h2, i:hover {
+    transform: translateY(0px, 50%);
+}
+
+article h2 {
+    font-size: 1rem;
+    margin: 10px auto;
+}
+
+
+article div {
+    display: flex;
+    padding: 10px;
+}
+
+.paragraphe1 {
+    background: orange;
+    width: 15rem;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+
 
 
 .un {
@@ -96,10 +140,12 @@ article:nth-child(6)::after {
     position: absolute;
     left: 0%;
     top: 0;
-    height: 21rem;
+    height: 24rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
+    
+
    
 
 }
@@ -109,34 +155,46 @@ article:nth-child(6)::after {
 .deux {
      background: url(./assets/img/ImageDEUX.jpg)center/cover;
     position: absolute;
-    height: 15rem;
+    height: 18rem;
     left: 0%;
-    top: 46%;
+    top: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .trois {
     background: url(./assets/img/imageTROIS.jpg)center/cover;
     position: absolute;
-    height: 13rem;
+    height: 15rem;
     top: 0;
     left: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .quatre {
     background: url(./assets/img/imageCINQ.jpg)center/cover;
     position: absolute;
-    height: 21rem;
+    height: 24rem;
     left: 66%;
     top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 
 }
 
 .cinq {
     background: url(./assets/img/imageSIX.jpg)center/cover;
     position: absolute;
-    top: 46%;
+    top: 50%;
     left: 66%;
-    height: 15rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
   
 }
 
@@ -144,8 +202,11 @@ article:nth-child(6)::after {
     background: url(./assets/img/imageQUATRE.jpg)center/cover;
     position: absolute;
     left: 33%;
-    top: 30%;
-    height: 23rem;
+    top: 32%;
+    height: 27rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
    
 }
 
