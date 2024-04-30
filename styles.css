@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.main {
+  
+}
+
+section {
+width: 80%;
+/* display: flex; */
+/* justify-content: center;
+align-items: center; */
+/* flex-wrap: wrap; */
+/* padding: 20px; */
+margin: 0 auto;
+position: relative;
+height: 50rem;
+}
+
+
+
+
+article {
+   
+  
+    width: 19em;
+    margin: 0;
+    border-radius: 5px 5px 5px 55px;
+
+    
+}
+    
+
+article:nth-child(1)::after {
+    content: "";
+    position: absolute;
+    height: 21rem;
+   width: 100%;
+    background: rgba(10, 12, 18, 0.353);
+    border-radius: 5px 5px 5px 55px;
+    
+}
+article:nth-child(2)::after {
+    content: "";
+    position: absolute;
+    height: 15rem;
+    width: 100%;
+    background: rgba(3, 4, 8, 0.427);
+    border-radius: 5px 5px 5px 55px;
+}
+
+article:nth-child(3)::after {
+    content: "";
+    position: absolute;
+    height: 13rem;
+    width: 100%;
+    background: rgba(3, 4, 8, 0.427);
+    border-radius: 5px 5px 5px 55px;
+}
+
+article:nth-child(4)::after {
+    content: "";
+    position: absolute;
+    height: 21rem;
+    width: 100%;
+    background: rgba(3, 4, 8, 0.427);
+    border-radius: 5px 5px 5px 55px;
+}
+
+article:nth-child(5)::after {
+    content: "";
+    position: absolute;
+    height: 15rem;
+    width: 100%;
+    background: rgba(3, 4, 8, 0.427);
+    border-radius: 5px 5px 5px 55px;
+}
+
+article:nth-child(6)::after {
+    content: "";
+    position: absolute;
+    height: 23rem;
+    width: 100%;
+    background: rgba(3, 4, 8, 0.427);
+    border-radius: 8px 8px 8px 45px;
+}
+
+
+.un {
+    background: url(./assets/img/ImageUN.jpg)center/cover;
+    position: absolute;
+    left: 0%;
+    top: 0;
+    height: 21rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+
+
+
+.deux {
+     background: url(./assets/img/ImageDEUX.jpg)center/cover;
+    position: absolute;
+    height: 15rem;
+    left: 0%;
+    top: 46%;
+}
+
+.trois {
+    background: url(./assets/img/imageTROIS.jpg)center/cover;
+    position: absolute;
+    height: 13rem;
+    top: 0;
+    left: 33%;
+}
+
+.quatre {
+    background: url(./assets/img/imageCINQ.jpg)center/cover;
+    position: absolute;
+    height: 21rem;
+    left: 66%;
+    top: 0;
+
+}
+
+.cinq {
+    background: url(./assets/img/imageSIX.jpg)center/cover;
+    position: absolute;
+    top: 46%;
+    left: 66%;
+    height: 15rem;
+  
+}
+
+.six {
+    background: url(./assets/img/imageQUATRE.jpg)center/cover;
+    position: absolute;
+    left: 33%;
+    top: 30%;
+    height: 23rem;
+   
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    
+    
+    .un {
+        width: 100%;
+    }
+
+    .deux {
+        width: 100%;
+    }
+
+    .trois {
+        top: 80%;
+        left: 0;
+        width: 100%;
+    }
+
+
+.quatre {
+    top: 110%;
+    left: 0;
+    width: 100%;
+}
+
+.cinq {
+    top: 157%;
+    left: 0;
+width: 100%;
+
+}
+
+.six {
+    top: 190%;
+    left: 0;
+    width: 100%;
+}
+
+}
+
