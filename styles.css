@@ -144,11 +144,14 @@ article div {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    transition: 0.7s;
     
 
    
 
 }
+
+
 
 
 
@@ -207,8 +210,16 @@ article div {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    transition: 10s;
    
 }
+
+.six:hover h2{
+    transform: translateY(-40%);
+
+}
+
+
 
 
 @media screen and (max-width: 1024px) {
