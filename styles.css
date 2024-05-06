@@ -214,8 +214,8 @@ article div {
    
 }
 
-.six:hover h2{
-    transform: translateY(-40%);
+.six:hover {
+    transform: translateY(20%);
 
 }
 
